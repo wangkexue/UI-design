@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Parallex Backgroudn Demo </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <% for i in 1..3 %>
+      <div class="cd-fixed-bg cd-bg-<%= i %>">
+      </div>
+      <div class="cd-scrolling-bg">
+        <section class="test-section">
+          <article>
+            Sample text <%= i %>
+          </article>
+        </section>
+      </div>
+    <!--
+    <div class="cd-fixed-bg cd-bg-1">
+    </div>
+    <div class="cd-scrolling-bg">
+      <section class="test-section">
+        <article>
+          Some text content here.
+        </article>
+      </section>
+    </div>
+    <div class="cd-fixed-bg cd-bg-2">
+    </div>
+    <div class="cd-fixed-bg cd-bg-3">
+    </div>
+  -->
+    <% end %>
+  </main>
+</body>
+</html>

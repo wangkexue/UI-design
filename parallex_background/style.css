@@ -8,11 +8,11 @@ body, html, main {
   background-repeat: no-repeat;
   background-position: center center; }
 
-.cd-fixed-bg .cd-bg-1 {
+.cd-fixed-bg.cd-bg-1 {
   background-image: url("https://www.evernote.com/shard/s200/res/97866409-b76b-4d91-8e39-575bf28639e2/photo-1433256392503-913cee5877e3.jpg"); }
-.cd-fixed-bg .cd-bg-2 {
+.cd-fixed-bg.cd-bg-2 {
   background-image: url("https://www.evernote.com/shard/s200/res/80d179b6-10be-4179-bef9-d045a4e963b6/photo-1428976365951-b70e0fa5c551.jpg"); }
-.cd-fixed-bg .cd-bg-3 {
+.cd-fixed-bg.cd-bg-3 {
   background-image: url("https://www.evernote.com/shard/s200/res/ec87059e-a167-4092-aab4-25b0f9c3a3e2/photo-1429547584745-d8bec594c82e.jpg"); }
 
 /*
@@ -27,13 +27,12 @@ body, html, main {
 .cd-fixed-bg.cd-bg-3 {
   background-image: url("https://www.evernote.com/shard/s200/res/ec87059e-a167-4092-aab4-25b0f9c3a3e2/photo-1429547584745-d8bec594c82e.jpg");
 }
-
+*/
 .cd-scrolling-bg {
   position: relative;
   min-height: 100%;
-  background-color: purple;
-}
-*/
+  background-color: purple; }
+
 .test-section {
   width: 60%;
   margin: auto;
